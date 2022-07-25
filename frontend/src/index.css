@@ -144,15 +144,21 @@ body {
 
 .swiper-button-prev {
   padding-left: 30px;
+  color: #fff;
 }
 
 .swiper-button-next {
   padding-right: 30px;
+  color: #fff;
 }
 
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
   color: red;
+}
+
+.swiper-pagination-bullet {
+  background-color: #fff;
 }
 
 .swiper-pagination-bullet:hover {

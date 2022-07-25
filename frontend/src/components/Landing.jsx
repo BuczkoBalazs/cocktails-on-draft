@@ -13,10 +13,10 @@ function Landing() {
   return (
     <Layout>
         <Swiper
-        style={{
-          "--swiper-navigation-color": "#fff",
-          "--swiper-pagination-color": "#fff",
-        }}
+        // style={{
+        //   "--swiper-navigation-color": "#fff",
+        //   "--swiper-pagination-color": "#fff",
+        // }}
         speed={600}
         parallax={true}
         centeredSlides={true}
