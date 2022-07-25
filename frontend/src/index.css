@@ -116,7 +116,7 @@ body {
   color: #fff;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 210px 80px;
+  padding: 210px 100px;
 }
 
 .parallax-bg {
@@ -140,4 +140,21 @@ body {
   font-size: 18px;
   max-width: 450px;
   line-height: 1.3;
+}
+
+.swiper-button-prev {
+  padding-left: 30px;
+}
+
+.swiper-button-next {
+  padding-right: 30px;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: red;
+}
+
+.swiper-pagination-bullet:hover {
+  background-color: red;
 }
