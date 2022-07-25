@@ -20,7 +20,6 @@ function Landing() {
         speed={600}
         parallax={true}
         centeredSlides={true}
-        loop={true}
         grabCursor={true}
         autoplay={{
           delay: 4000,
