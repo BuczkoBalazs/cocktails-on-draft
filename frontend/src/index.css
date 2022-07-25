@@ -12,16 +12,48 @@ code {
     monospace;
 }
 
+/* CSS RESET */
 
-
-#root { height: 100% }
-html,
-body {
-  position: relative;
-  height: 100%;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  background: transparent;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
 }
 
+a {
+  text-decoration: none;
+}
+
+a img {
+  border: none;
+}
+
+button,
+a {
+  cursor: pointer;
+  color: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+button,
+textarea,
+select {
+  appearance: none !important;
+  border-radius: 0;
+}
+
+/* END OF CSS RESET */
+
 body {
+  position: relative;
   background: #eee;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -30,9 +62,52 @@ body {
   padding: 0;
 }
 
+/* HEADER STYLING */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 60px;
+  padding: 20px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  font-size: 25px;
+}
+
+.nav-container a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 10px 0px 10px;
+}
+
+.nav-container a:hover {
+  color: red;
+}
+
+/* SWIPER STYLING */
+
 .swiper {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background: #000;
 }
 
@@ -41,7 +116,7 @@ body {
   color: #fff;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 40px 60px;
+  padding: 210px 80px;
 }
 
 .parallax-bg {
@@ -56,16 +131,13 @@ body {
 }
 
 .swiper-slide .title {
-  font-size: 41px;
+  font-size: 45px;
   font-weight: 300;
 }
 
-.swiper-slide .subtitle {
-  font-size: 21px;
-}
-
 .swiper-slide .text {
-  font-size: 14px;
-  max-width: 400px;
+  padding-top: 80px;
+  font-size: 18px;
+  max-width: 450px;
   line-height: 1.3;
 }
