@@ -43,58 +43,39 @@ function Landing() {
         ></div>
         <SwiperSlide>
           <div className="title" data-swiper-parallax="-300">
-            Slide 1
+            Welcome to Cocktails on Draft!
           </div>
-          <div className="subtitle" data-swiper-parallax="-200">
-            Subtitle
-          </div>
-          <div className="text" data-swiper-parallax="-100">
+          <div className="text" data-swiper-parallax="-200">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-              dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
-              laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
-              Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
-              Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
-              ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
-              tincidunt ut libero. Aenean feugiat non eros quis feugiat.
+              Are you thirtsy? Have you tried already all pubs and winery nearby?
+              Then it's time to have some adventures with coctails.
+              We would like to help a bit for beginners why cocktails are so much fun.
+              Browse our page and found you recipes which are easy to do at home.
+              Let the adventure begin!
             </p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="title" data-swiper-parallax="-300">
-            Slide 2
-          </div>
-          <div className="subtitle" data-swiper-parallax="-200">
-            Subtitle
+            Cocktail gallery
           </div>
           <div className="text" data-swiper-parallax="-100">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-              dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
-              laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
-              Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
-              Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
-              ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
-              tincidunt ut libero. Aenean feugiat non eros quis feugiat.
+              We have gathered some cocktails which is easy to create but hard to master.
+              Check out our collection and learn more.
+              Mark up your favourites and it will be save to your account.
             </p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="title" data-swiper-parallax="-300">
-            Slide 3
-          </div>
-          <div className="subtitle" data-swiper-parallax="-200">
-            Subtitle
+            Favourites section
           </div>
           <div className="text" data-swiper-parallax="-100">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-              dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
-              laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
-              Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
-              Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
-              ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
-              tincidunt ut libero. Aenean feugiat non eros quis feugiat.
+              Have you checked our cocktails and found some interesting?
+              You can reach them here and save yourselves some time.
+              Life is too short to spend it on searching when you can make a cocktail instead.
             </p>
           </div>
         </SwiperSlide>
