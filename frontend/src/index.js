@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Gallery from './components/Gallery';
 import Landing from './components/Landing';
 import './index.css'
 
@@ -11,6 +12,7 @@ root.render(
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Landing />} />
+          <Route path='/gallery' element={<Gallery />} />
         </Routes>
       </BrowserRouter>
     </div>
