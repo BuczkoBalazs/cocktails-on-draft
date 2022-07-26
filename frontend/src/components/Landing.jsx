@@ -32,7 +32,7 @@ function Landing() {
           slot="container-start"
           className="parallax-bg"
           style={{
-            "background-image":
+            "backgroundImage":
               `url(${background})`,
           }}
           data-swiper-parallax="-23%"
