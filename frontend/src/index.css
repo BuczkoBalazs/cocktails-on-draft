@@ -173,8 +173,8 @@ body {
   justify-content: center;
   align-items: center;
   padding-top: 60px;
-  /* background-image: url(./images/landing/landing2.jpg);
-  background-size: cover; */
+  background-image: url(./images/landing/landing2.jpg);
+  background-size: cover;
 }
 
 .gallery-wrapper h1 {
