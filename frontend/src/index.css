@@ -271,18 +271,45 @@ body {
 }
 
 .base-info h3 {
+  margin: 10px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 17px;
   color: #fff;
 }
 
 .base-info img {
-  width: 95%;
+  width: 90%;
   height: auto;
+  margin: 5px 0px;
   border-radius: 15px;
 }
 
 .extended-info p {
   padding: 10px;
-  font-size: 10px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   color: #fff;
+}
+
+.extended-info .title-info {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.extended-info .text-info {
+  margin-bottom: 5px;
+  font-size: 11px;
+}
+
+.extended-info .fav-button {
+  width: 100px;
+  margin-bottom: 10px;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  color: #fff;
+}
+
+.extended-info .fav-button:hover {
+  color: red;
+  border-color: red;
 }
 
