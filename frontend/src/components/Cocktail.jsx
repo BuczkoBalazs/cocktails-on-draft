@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Cocktail({ id, name, howto, ingredients, image }) {
+function Cocktail({ id, name, howto, ingredients, image, favourite }) {
   return (
     <div className='cocktail-wrapper' key={id}>
         <div className='base-info'>

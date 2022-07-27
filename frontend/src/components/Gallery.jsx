@@ -39,7 +39,7 @@ function Gallery() {
                     <button className='sort-by-name' onClick={sortButtonChangeHandle} >{sortButton}</button>
                 </div>
                 <div className='cocktails-wrapper'>
-                    {cocktails && cocktails.map(({ id, name, howto, ingredients, image }) => name.toLowerCase().includes(searchInput.toLowerCase()) && <Cocktail key={id} id={id} name={name} howto={howto} ingredients={ingredients} image={image} />
+                    {cocktails && cocktails.map(({ id, name, howto, ingredients, image, favourite }) => name.toLowerCase().includes(searchInput.toLowerCase()) && <Cocktail key={id} id={id} name={name} howto={howto} ingredients={ingredients} image={image} favourite={favourite} />
                     )}
                 </div>
             </div>
