@@ -32,7 +32,7 @@ function Gallery() {
     return (
         <Layout>
             <div className='gallery-wrapper'>
-                <h1>Welcome to our gallery. Feel free to browse</h1>
+                <h1>Welcome to our gallery! Feel free to browse.</h1>
                 <div className='filters'>
                     <label for="search">Search by name</label>
                     <input type="text" name="search" id="search" value={searchInput} onChange={inputChangeHandle} />
