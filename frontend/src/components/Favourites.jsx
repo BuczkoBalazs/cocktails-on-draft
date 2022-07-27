@@ -21,7 +21,7 @@ function Favourites() {
 
     return (
     <Layout>
-        <div className='gallery-wrapper'>
+        <div className='favourites-wrapper'>
             <h1>Here you find your favourite cocktails!</h1>
             <div className='cocktails-wrapper'>
                 {cocktails && cocktails.map(({ id, name, howto, ingredients, image, favourite }) => favourite === 'true' && <Cocktail key={id} id={id} name={name} howto={howto} ingredients={ingredients} image={image} favourite={favourite} />

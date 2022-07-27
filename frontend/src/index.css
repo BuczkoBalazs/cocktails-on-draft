@@ -168,18 +168,28 @@ body {
 
 /* GALLERY STYLING */
 
-.gallery-wrapper {
+.gallery-wrapper,
+.favourites-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   padding-top: 60px;
-  background-image: url(./images/landing/landing2.jpg);
-  background-size: cover;
 }
 
-.gallery-wrapper h1 {
+.gallery-wrapper {
+  background-image: url(./images/landing/landing2.jpg);
+  background-size: cover;  
+}
+
+.favourites-wrapper {
+  background-image: url(./images/landing/landing5.jpg);
+  background-size: cover;  
+}
+
+.gallery-wrapper h1,
+.favourites-wrapper h1 {
   margin: 15px 0px;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 25px;
