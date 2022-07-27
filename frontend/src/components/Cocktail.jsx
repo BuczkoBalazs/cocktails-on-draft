@@ -14,8 +14,7 @@ function Cocktail({ id, name, howto, ingredients, image, favourite }) {
         id: id,
         favourite: !fav
       })
-    })
-    setFav(!fav)
+    }).then(setFav(!fav))
   };
 
   return (
