@@ -99,6 +99,7 @@ body {
   margin: 0px 10px 0px 10px;
 }
 
+.logo:hover,
 .nav-container a:hover {
   color: red;
 }
