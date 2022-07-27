@@ -164,3 +164,68 @@ body {
 .swiper-pagination-bullet:hover {
   background-color: red;
 }
+
+/* GALLERY STYLING */
+
+.gallery-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+  /* background-image: url(./images/landing/landing2.jpg);
+  background-size: cover; */
+}
+
+.gallery-wrapper h1 {
+  padding-top: 10px;
+  color: #fff;
+}
+
+.cocktails-wrapper {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+  padding-top: 15px;
+}
+
+
+/* COCKTAIL STYLING */
+
+.cocktail-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 350px;
+  margin: auto;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  backdrop-filter: saturate(200%) blur(10px);
+}
+
+.base-info,
+.extended-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.base-info h3 {
+  color: #fff;
+}
+
+.base-info img {
+  width: 95%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.extended-info p {
+  padding: 10px;
+  font-size: 10px;
+  color: #fff;
+}
+
