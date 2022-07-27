@@ -6,7 +6,8 @@ function Gallery() {
 
     const [cocktails, setCocktails] = useState(null);
     const [searchInput, setSearchInput] = useState('');
-    const [sortByName, setSortByName] = useState('asc')
+    const [sortByName, setSortByName] = useState('asc');
+    const [sortButton, setSortButton] = useState('Sort ascending')
 
     const getCocktails = async () => {
 
@@ -22,6 +23,12 @@ function Gallery() {
 
     const inputChangeHandle = (e) => setSearchInput(e.target.value);
 
+    function sortButtonChangeHandle() {
+        setCocktails([...cocktails.sort( (a,b) => sortByName === 'asc' ? a.name.localeCompare(b.name) : b.name.localeCompare(a.name))]);
+        setSortByName(sortByName === 'asc' ? 'desc' : 'asc');
+        setSortButton(sortButton === 'Sort ascending' ? 'Sort descending' : 'Sort ascending')
+    }
+
     return (
         <Layout>
             <div className='gallery-wrapper'>
@@ -29,7 +36,7 @@ function Gallery() {
                 <div className='filters'>
                     <label for="search">Search by name</label>
                     <input type="text" name="search" id="search" value={searchInput} onChange={inputChangeHandle} />
-                    <button className='sort-by-name'>{sortByName}</button>
+                    <button className='sort-by-name' onClick={sortButtonChangeHandle} >{sortButton}</button>
                 </div>
                 <div className='cocktails-wrapper'>
                     {cocktails && cocktails.map(({ id, name, howto, ingredients, image }) => name.toLowerCase().includes(searchInput.toLowerCase()) && <Cocktail key={id} id={id} name={name} howto={howto} ingredients={ingredients} image={image} />
